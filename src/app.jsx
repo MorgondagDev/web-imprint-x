@@ -78,14 +78,14 @@ export default class extends React.Component {
                 <section role="content">
                     <Capsules/>
 
-                    <h2>A super good sentence about the game</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil dolor sint rem eligendi commodi magni porro impedit non fugiat fugit.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit fuga similique voluptatibus corrupti dicta saepe molestias beatae accusamus reiciendis quam mollitia, amet perspiciatis ab iure. Modi nesciunt esse dicta aspernatur.</p>
+                    <h2>A causal, button based puzzle game</h2>
+                    <p>imprint-X is a casual puzzle game, containing 100 uniquely crafted puzzles to solve where you hack and click your way to defeat the mysterious robotic Wardens.</p>
+                    <p>Hack into peoples brains and destroy the robotic virus that enslaves their minds!</p>
                     <p><br/><br/></p>
 
-                    <h3>imprint-x puzzle game</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil dolor sint rem eligendi commodi magni porro impedit non fugiat fugit.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit fuga similique voluptatibus corrupti dicta saepe molestias beatae accusamus reiciendis quam mollitia, amet perspiciatis ab iure. Modi nesciunt esse dicta aspernatur.</p>
+                    <h3>You have been sent to save them!</h3>
+                    <p>One day an AI woke up on an Asteroid Base. It sent out swarms of Nano Bots that attacked the people of the base, flew into their world and infected them with just a glance, planting Wardens in their minds. A robotic virus raged! </p>
+                    <p>The Wardens enslave the people! You are one of the hacker clones, saving people by hacking into their brains and defeating Wardens.</p>
                     <p><br/><br/></p>
 
                     <p>
@@ -99,8 +99,7 @@ export default class extends React.Component {
                     <Gif placeholder={basePath+"ward3.jpg"} src={basePath+"ward3.gif"} />
                     */}
 
-                    <h3>Here are some stuff:</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, adipisci!</p>
+                    <h3>Here are some Wardens</h3>
                     <ReactRpg imagesArray={this.getImages()} columns={[this.state.columns]} padding={this.state.padding} />
                     <div className="clear"></div>
                     <p><br/><br/></p>
