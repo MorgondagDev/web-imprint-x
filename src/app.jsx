@@ -104,7 +104,7 @@ export default class extends React.Component {
                     <div className="clear"></div>
                     <p><br/><br/></p>
                     <p>
-                        <a href="http://morgondag.us3.list-manage2.com/subscribe?u=0c6b4fd7d0dc95e81024c3c51&id=970ded45b7" className="btn btn-signup" title="Add imprint-X to your Steam Wishlist">Add To Steam Wishlist</a>
+                        <a href="http://morgondag.us3.list-manage2.com/subscribe?u=0c6b4fd7d0dc95e81024c3c51&id=970ded45b7" className="btn btn-signup" title="Add imprint-X to your Steam Wishlist">Signup for news</a>
                     </p>
                 </section>
                 <Footer/>

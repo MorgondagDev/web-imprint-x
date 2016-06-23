@@ -9,7 +9,7 @@ export default class extends React.Component {
 			<footer>
 
 				<Player/>
-				<a className="kickstart" href="http://morgondag.us3.list-manage2.com/subscribe?u=0c6b4fd7d0dc95e81024c3c51&id=970ded45b7" title="Back imprint-x on kickstarter!">Back This Project!</a>
+				<a className="kickstart" href="https://www.kickstarter.com/projects/morgondag/imprint-x">Back This Project!</a>
 				<Facebook url="https://www.facebook.com/imprintX/" id="234294403315668"/>
 				<a  className="twitterLink" href="https://twitter.com/imprint_X" title="imprint-X on Twitter">@imprint_X</a>
 				<a href="http://morgondag.nu" title="Imprint-x developed by Morgondag">

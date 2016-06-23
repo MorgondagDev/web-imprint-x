@@ -22,9 +22,9 @@ export default class extends React.Component {
 						</a>
 					</li>
 					<li>
-						<a target="_blank" href="https://www.youtube.com/watch?v=JIlmX2ugqXE" title="imprint-X Gameplay Trailer" className="video capsule3">►</a>
+						<a target="_blank" href="https://www.kickstarter.com/projects/morgondag/imprint-x" title="imprint-X Kickstarter" className="video capsule3">►</a>
 						<a className="desc" target="_blank" href="https://www.youtube.com/watch?v=JIlmX2ugqXE">
-							<span>Teaser trailer</span>
+							<span>Kickstarter</span>
 						</a>
 					</li>
 				</ul>
