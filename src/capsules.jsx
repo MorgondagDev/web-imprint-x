@@ -21,12 +21,13 @@ export default class extends React.Component {
 							<span>Intro Cinematics</span>
 						</a>
 					</li>
+					{/*
 					<li>
 						<a target="_blank" href="https://www.kickstarter.com/projects/morgondag/imprint-x" title="imprint-X Kickstarter" className="video capsule3">►</a>
 						<a className="desc" target="_blank" href="https://www.youtube.com/watch?v=JIlmX2ugqXE">
 							<span>Kickstarter</span>
 						</a>
-					</li>
+					</li>*/}
 				</ul>
 			</section>
 		)

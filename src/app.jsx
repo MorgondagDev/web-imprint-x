@@ -6,6 +6,7 @@ import { ReactRpg } from 'react-rpg';
 
 import Capsules from './capsules.jsx'
 import Gif from './gif.jsx'
+import Donate from './donate.jsx'
 
 const previewStyles = {
   top: '50%',
@@ -15,7 +16,7 @@ const previewStyles = {
   border: 'solid #1a1a1a 10px',
   zIndex: '3',
 };
-const basePath = 'media/';
+const basePath = '/media/';
 
 export default class extends React.Component {
     constructor(props) {
@@ -77,6 +78,11 @@ export default class extends React.Component {
                 <Hero/>
                 <section role="content">
                     <Capsules/>
+
+
+                    <Donate />
+
+
 
                     <h2>A causal, button based puzzle game</h2>
                     <p>imprint-X is a casual puzzle game, containing 100 uniquely crafted puzzles to solve where you hack and click your way to defeat the mysterious robotic Wardens.</p>

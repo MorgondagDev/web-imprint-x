@@ -12,7 +12,7 @@ export default class extends React.Component {
 							</a>
 						</li>
 						<li>
-							<a className="btn-small" href="https://www.kickstarter.com/projects/morgondag/imprint-x" title="Play Imprint-X on Steam or AppStore!">►!</a>
+							<a className="btn-small" href="http://morgondag.us3.list-manage2.com/subscribe?u=0c6b4fd7d0dc95e81024c3c51&id=970ded45b7" title="Play Imprint-X on Steam or AppStore!">►!</a>
 						</li>
 					</ul>
 				</nav>
