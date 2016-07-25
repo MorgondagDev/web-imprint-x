@@ -2,6 +2,7 @@ const webpack = require('webpack');
 const nib = require('nib');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+const reactRenderPlugin = require('react-render-webpack-plugin');
 
 module.exports = {
   entry: [
@@ -56,6 +57,10 @@ module.exports = {
       'process.env': {
         'NODE_ENV': '"production"'
       }
+    }),
+    new reactRenderPlugin({
+      'file': 'src/app.jsx',
+      'parentClass': 'react-app'
     })
   ]
 };
