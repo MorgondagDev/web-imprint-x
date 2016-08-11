@@ -79,8 +79,7 @@ export default class extends React.Component {
                 <section role="content">
                     <Capsules/>
 
-
-                    <Donate />
+                    <iframe src="http://store.steampowered.com/widget/434310" frameborder="0" width="646" height="190" />
 
 
 
@@ -97,7 +96,7 @@ export default class extends React.Component {
                     <p>
                         <a href="http://morgondag.us3.list-manage2.com/subscribe?u=0c6b4fd7d0dc95e81024c3c51&id=970ded45b7" className="btn" title="Subscribe to news about imprint-X">Subscribe for updates</a>
                     </p>
-
+                      <Donate />
                     {/*<Gif placeholder={basePath+"space2.jpg"} src={basePath+"space2.gif"} />
                     <Gif placeholder={basePath+"space1.jpg"} src={basePath+"space1.gif"} />
                     <Gif placeholder={basePath+"ward1.jpg"} src={basePath+"ward1.gif"} />
@@ -112,6 +111,7 @@ export default class extends React.Component {
                     <p>
                         <a href="http://morgondag.us3.list-manage2.com/subscribe?u=0c6b4fd7d0dc95e81024c3c51&id=970ded45b7" className="btn btn-signup" title="Add imprint-X to your Steam Wishlist">Signup for news</a>
                     </p>
+                    <iframe src="http://store.steampowered.com/widget/434310" frameborder="0" width="646" height="190" />
                 </section>
                 <Footer/>
             </section>
