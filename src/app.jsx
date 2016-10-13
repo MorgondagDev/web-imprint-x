@@ -84,7 +84,7 @@ export default class extends React.Component {
 
 
                     <h2>A causal, button based puzzle game</h2>
-                    <p>imprint-X is a casual puzzle game, containing 100 uniquely crafted puzzles to solve where you hack and click your way to defeat the mysterious robotic Wardens.</p>
+                    <p>imprint-X is a casual puzzle game, containing 100 puzzles to solve where you click your way to defeat the mysterious robotic Wardens.</p>
                     <p>Hack into peoples brains and destroy the robotic virus that enslaves their minds!</p>
                     <p><br/><br/></p>
 
