@@ -1,7 +1,11 @@
-import moment from '../node_modules/moment/min/moment.min.js'
+import moment from '../../node_modules/moment/min/moment.min.js'
 
 exports.fromnow = function(timestamp){
 	return moment(new Date(timestamp)).fromNow()
+}
+
+const capitalize = function(txt){
+	 return txt.charAt(0).toUpperCase() + txt.slice(1);
 }
 
 exports.linkify = function(text){

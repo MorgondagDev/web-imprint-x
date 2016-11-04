@@ -1,12 +1,14 @@
-import TopBar from './top-bar.jsx'
-import Hero from './hero.jsx'
-import Footer from './footer.jsx'
 import React, { Component, PropTypes } from 'react'
 import { ReactRpg } from 'react-rpg';
 
-import Capsules from './capsules.jsx'
-import Gif from './gif.jsx'
-import Donate from './donate.jsx'
+import TopBar from './components/top-bar.jsx'
+import Hero from './components/hero.jsx'
+import Footer from './components/footer.jsx'
+import Capsules from './components/capsules.jsx'
+import Gif from './components/gif.jsx'
+import Donate from './components/donate.jsx'
+
+import lang from './lib/lang.js'
 
 const previewStyles = {
   top: '50%',
@@ -21,11 +23,16 @@ const basePath = '/media/';
 export default class extends React.Component {
     constructor(props) {
         super(props)
+        lang.setup();
+
+        console.log(lang.t('hello'))
         this.state = {
             padding: 10,
             columns: 4,
             popUp: false,
+            d: Date.now()
         }
+        this.reRender = this.reRender.bind(this);
     }
 
     paddingChanged(e) {
@@ -38,6 +45,10 @@ export default class extends React.Component {
 
     imagePopup(url, obj) {
         this.setState({ popUp: url })
+    }
+
+    reRender(){
+        this.setState({d: Date.now()})
     }
 
     preview(){
@@ -74,12 +85,10 @@ export default class extends React.Component {
         return (
             <section role="main">
              { this.state.popUp !== false ? this.preview() : null }
-                <TopBar/>
+                <TopBar update={this.reRender}/>
                 <Hero/>
                 <section role="content">
                     <Capsules/>
-
-                    <iframe src="http://store.steampowered.com/widget/434310" frameborder="0" width="646" height="190" />
 
 
 
@@ -93,17 +102,14 @@ export default class extends React.Component {
                     <p>The Wardens enslave the people! You are one of the hacker clones, saving people by hacking into their brains and defeating Wardens.</p>
                     <p><br/><br/></p>
 
+
+                    <iframe src="https://store.steampowered.com/widget/434310" frameborder="0" width="646" height="190" />
+
                     <p>
                         <a href="http://morgondag.us3.list-manage2.com/subscribe?u=0c6b4fd7d0dc95e81024c3c51&id=970ded45b7" className="btn" title="Subscribe to news about imprint-X">Subscribe for updates</a>
                     </p>
-                      <Donate />
-                    {/*<Gif placeholder={basePath+"space2.jpg"} src={basePath+"space2.gif"} />
-                    <Gif placeholder={basePath+"space1.jpg"} src={basePath+"space1.gif"} />
-                    <Gif placeholder={basePath+"ward1.jpg"} src={basePath+"ward1.gif"} />
-                    <Gif placeholder={basePath+"ward2.jpg"} src={basePath+"ward2.gif"} />
-                    <Gif placeholder={basePath+"ward3.jpg"} src={basePath+"ward3.gif"} />
-                    */}
 
+                    <Donate />
                     <h3>Here are some Wardens</h3>
                     <ReactRpg imagesArray={this.getImages()} columns={[this.state.columns]} padding={this.state.padding} />
                     <div className="clear"></div>

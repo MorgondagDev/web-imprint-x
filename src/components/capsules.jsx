@@ -4,7 +4,6 @@ export default class extends React.Component {
 	constructor(props) {
 		super(props)
 	}
-
 	render(){
 		return (
 			<section role="capsules">
@@ -12,22 +11,15 @@ export default class extends React.Component {
 					<li>
 						<a target="_blank" href="https://www.youtube.com/watch?v=JIlmX2ugqXE" title="imprint-X Alpha Gameplay Trailer" className="video capsule1">►</a>
 						<a className="desc" target="_blank" href="https://www.youtube.com/watch?v=JIlmX2ugqXE">
-							<span>Alpha Gameplay trailer</span>
+							<span></span>
 						</a>
 					</li>
 					<li>
 						<a target="_blank" href="https://www.youtube.com/watch?v=U1BciKTIAMU" title="imprint-X Intro" className="video capsule2">►</a>
 						<a className="desc" target="_blank" href="https://www.youtube.com/watch?v=U1BciKTIAMU">
-							<span>Intro Cinematics</span>
+							<span></span>
 						</a>
 					</li>
-					{/*
-					<li>
-						<a target="_blank" href="https://www.kickstarter.com/projects/morgondag/imprint-x" title="imprint-X Kickstarter" className="video capsule3">►</a>
-						<a className="desc" target="_blank" href="https://www.youtube.com/watch?v=JIlmX2ugqXE">
-							<span>Kickstarter</span>
-						</a>
-					</li>*/}
 				</ul>
 			</section>
 		)
