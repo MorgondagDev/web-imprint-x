@@ -38,3 +38,5 @@ jspm_packages
 dist/app.min.js
 dist/style.min.css
 dist/media/
+*.sublime-project
+*.sublime-workspace
