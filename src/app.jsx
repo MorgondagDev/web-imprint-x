@@ -24,8 +24,6 @@ export default class extends React.Component {
     constructor(props) {
         super(props)
         lang.setup();
-
-        console.log(lang.t('hello'))
         this.state = {
             padding: 10,
             columns: 4,
@@ -103,7 +101,7 @@ export default class extends React.Component {
                     <p><br/><br/></p>
 
 
-                    <iframe src="https://store.steampowered.com/widget/434310" frameborder="0" width="646" height="190" />
+                    <iframe src="https://store.steampowered.com/widget/434310" frameBorder="0" width="646" height="190" />
 
                     <p>
                         <a href="http://morgondag.us3.list-manage2.com/subscribe?u=0c6b4fd7d0dc95e81024c3c51&id=970ded45b7" className="btn" title="Subscribe to news about imprint-X">Subscribe for updates</a>
@@ -117,7 +115,7 @@ export default class extends React.Component {
                     <p>
                         <a href="http://morgondag.us3.list-manage2.com/subscribe?u=0c6b4fd7d0dc95e81024c3c51&id=970ded45b7" className="btn btn-signup" title="Add imprint-X to your Steam Wishlist">Signup for news</a>
                     </p>
-                    <iframe src="http://store.steampowered.com/widget/434310" frameborder="0" width="646" height="190" />
+                    <iframe src="http://store.steampowered.com/widget/434310" frameBorder="0" width="646" height="190" />
                 </section>
                 <Footer/>
             </section>
