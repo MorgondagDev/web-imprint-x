@@ -87,34 +87,16 @@ export default class extends React.Component {
                 <Hero/>
                 <section role="content">
                     <Capsules/>
-
-
-
-                    <h2>A causal, button based puzzle game</h2>
-                    <p>imprint-X is a casual puzzle game, containing 100 puzzles to solve where you click your way to defeat the mysterious robotic Wardens.</p>
-                    <p>Hack into peoples brains and destroy the robotic virus that enslaves their minds!</p>
-                    <p><br/><br/></p>
-
-                    <h3>You have been sent to save them!</h3>
-                    <p>One day an AI woke up on an Asteroid Base. It sent out swarms of Nano Bots that attacked the people of the base, flew into their world and infected them with just a glance, planting Wardens in their minds. A robotic virus raged! </p>
-                    <p>The Wardens enslave the people! You are one of the hacker clones, saving people by hacking into their brains and defeating Wardens.</p>
-                    <p><br/><br/></p>
-
-
+                    <h1>imprint-X</h1>
+                    <h2>{lang.t('slogan')}</h2>
+                    <p>{lang.t('maintext1')}</p>
+                    <p><br/></p>
+                    <p>{lang.t('maintext2')}</p>
                     <iframe src="https://store.steampowered.com/widget/434310" frameBorder="0" width="646" height="190" />
-
-                    <p>
-                        <a href="http://morgondag.us3.list-manage2.com/subscribe?u=0c6b4fd7d0dc95e81024c3c51&id=970ded45b7" className="btn" title="Subscribe to news about imprint-X">Subscribe for updates</a>
-                    </p>
-
-                    <Donate />
-                    <h3>Here are some Wardens</h3>
+                    <p><a className="btn" title="Play imprint-X now!" href="http://store.steampowered.com/app/434310/">{lang.t('play')}</a></p>
                     <ReactRpg imagesArray={this.getImages()} columns={[this.state.columns]} padding={this.state.padding} />
                     <div className="clear"></div>
                     <p><br/><br/></p>
-                    <p>
-                        <a href="http://morgondag.us3.list-manage2.com/subscribe?u=0c6b4fd7d0dc95e81024c3c51&id=970ded45b7" className="btn btn-signup" title="Add imprint-X to your Steam Wishlist">Signup for news</a>
-                    </p>
                     <iframe src="http://store.steampowered.com/widget/434310" frameBorder="0" width="646" height="190" />
                 </section>
                 <Footer/>

@@ -40,3 +40,5 @@ dist/style.min.css
 dist/media/
 *.sublime-project
 *.sublime-workspace
+
+.DS_Store
