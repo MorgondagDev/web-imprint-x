@@ -71,7 +71,7 @@ export default class extends React.Component {
 
     getImages() {
         let items = []
-        let count = 100;
+        let count = 99;
 
         for (var i = 1; i < count; i++) {
             items.push({ url: basePath+'wardens/'+i+'.jpg', clickHandler: this.imagePopup.bind(this) })
