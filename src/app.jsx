@@ -31,6 +31,9 @@ export default class extends React.Component {
             d: Date.now()
         }
         this.reRender = this.reRender.bind(this);
+
+        setInterval(this.reRender, 5000);
+
     }
 
     paddingChanged(e) {
@@ -69,14 +72,22 @@ export default class extends React.Component {
         this.setState({ popUp: false })
     }
 
+    shuffle(a) {
+        for (let i = a.length; i; i--) {
+            let j = Math.floor(Math.random() * i);
+            [a[i - 1], a[j]] = [a[j], a[i - 1]];
+        }
+
+        return a
+    }
+
     getImages() {
         let items = []
         let count = 101;
-
         for (var i = 1; i < count; i++) {
             items.push({ url: basePath+'wardens/'+i+'.jpg', clickHandler: this.imagePopup.bind(this) })
         }
-        return items
+        return this.shuffle(items).slice(0,8)
     }
 
     render() {
@@ -88,16 +99,26 @@ export default class extends React.Component {
                 <section role="content">
                     <Capsules/>
                     <h1>imprint-X</h1>
-                    <h2>{lang.t('slogan')}</h2>
-                    <p>{lang.t('maintext1')}</p>
+                    <h2>{lang.t('snippet')}</h2>
+                    <p>{lang.t('description1')}</p>
                     <p><br/></p>
-                    <p>{lang.t('maintext2')}</p>
-                    <iframe src="https://store.steampowered.com/widget/434310" frameBorder="0" width="646" height="190" />
-                    <p><a className="btn" title="Play imprint-X now!" href="http://store.steampowered.com/app/434310/">{lang.t('play')}</a></p>
+                    <p>{lang.t('description2')}</p>
+                    <iframe src="https://store.steampowered.com/widget/434310" frameBorder="0" width="80%" height="250" />
+                    <p><a className="btn" title="Play imprint-X now!" href="http://store.steampowered.com/app/434310/">{lang.t('btn_buy')}</a></p>
                     <ReactRpg imagesArray={this.getImages()} columns={[this.state.columns]} padding={this.state.padding} />
                     <div className="clear"></div>
+
+                    <h3>{lang.t('features')}</h3>
+                    <ul>
+                        <li>{lang.t('feature1')}</li>
+                        <li>{lang.t('feature2')}</li>
+                        <li>{lang.t('feature3')}</li>
+                        <li>{lang.t('feature4')}</li>
+                        <li>{lang.t('feature5')}</li>
+                    </ul>
+
                     <p><br/><br/></p>
-                    <iframe src="http://store.steampowered.com/widget/434310" frameBorder="0" width="646" height="190" />
+                    <iframe src="http://store.steampowered.com/widget/434310" frameBorder="0" width="80%" height="250" />
                 </section>
                 <Footer/>
             </section>
