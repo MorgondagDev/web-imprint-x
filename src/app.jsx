@@ -31,9 +31,10 @@ export default class extends React.Component {
             d: Date.now()
         }
         this.reRender = this.reRender.bind(this);
+    }
 
-        setInterval(this.reRender, 5000);
-
+    componentDidMount(){
+         setInterval(this.reRender, 5000);
     }
 
     paddingChanged(e) {
