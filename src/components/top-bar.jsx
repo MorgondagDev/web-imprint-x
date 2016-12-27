@@ -34,6 +34,7 @@ export default class extends React.Component {
 	render() {
 		return (
 			<header>
+				<a className="presskit" target="_blank" title="Press information" href="https://goo.gl/sgsKW9">{lang.t('presskit')}</a>
 				{this.langPicker()}
 				<nav role="primary">
 					<ul>

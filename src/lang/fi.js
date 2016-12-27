@@ -9,6 +9,7 @@ exports.lang = {
 	"btn_subscribe": 	"Tilaa uutiskirje!",
 	"puzzle": 		"Pulmapeli!",
 	"btn": 			"Nappula!",
+	"presskit": 		"Presskit",
 
 	"options_fast":	"Nopea moodi",
 	"options_ui":		"Näytä UI",

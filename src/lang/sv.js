@@ -9,6 +9,7 @@ exports.lang = {
 	"btn_subscribe": 	"Prenumerera!",
 	"puzzle": 		"Pusselspel!",
 	"btn": 			"Knapp!",
+	"presskit": 		"Presskit",
 
 	"options_fast":	"Snabbt läge",
 

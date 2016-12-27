@@ -105,7 +105,10 @@ export default class extends React.Component {
                     <p><br/></p>
                     <p>{lang.t('description2')}</p>
                     <iframe src="https://store.steampowered.com/widget/434310" frameBorder="0" width="80%" height="250" />
-                    <p><a className="btn" title="Play imprint-X now!" href="http://store.steampowered.com/app/434310/">{lang.t('btn_buy')}</a></p>
+
+                    <p><a className="btn" title="Play imprint-X now!" href="http://store.steampowered.com/app/434310/">{lang.t('btn_buy')}</a>
+                    <a className="btn" title="imprint-X Presskit" target="_blank" href="https://goo.gl/sgsKW9">{lang.t('presskit')}</a></p>
+
                     <ReactRpg imagesArray={this.getImages()} columns={[this.state.columns]} padding={this.state.padding} />
                     <div className="clear"></div>
 
