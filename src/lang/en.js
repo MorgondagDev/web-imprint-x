@@ -20,7 +20,7 @@ exports.lang = {
 
 	"credit": 		"Morgondag",
 
-	"snippet": "A captivating and relaxed puzzle game containing 700 buttons to press and 100 levels to unlock! You are one of the hacker clones, saving intellects by hacking into infected brains and defeating the mysterious Wardens.",
+	"snippet": "A button-based puzzle game containing 100 levels to unlock and 700 buttons to press! You are one of the hacker clones, saving intellects by hacking into infected brains and defeating the mysterious Wardens.",
 	"description1": "A robotic virus is raging! Nano Bots called Wardens are enslaving people! You are one of the hacker clones, saving intellects by hacking into infected brains and defeating the mysterious Wardens; figuring out their correct button sequences.",
 	"description2": "There are 100 Wardens for you to defeat, containing a mixture of timing, memory and pattern recognition button-based puzzles.",
 
