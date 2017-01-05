@@ -27,7 +27,7 @@ exports.lang = {
 
 	"features": 		"Egenskaper",
 	"feature1":		"700 knappar att trycka på",
-	"feature2":		"100 nivåer att låsa upp",
+	"feature2":		"100 banor att låsa upp",
 	"feature3":		"Atmosfärisk musik och fantastisk pixelkonst",
 	"feature4":		"En blandning av olika pussel",
 	"feature5":		"Nyfikenhet som drivkraft",
