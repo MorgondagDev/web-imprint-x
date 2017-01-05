@@ -21,7 +21,7 @@ exports.lang = {
 
 	"credit": 		"Erik Westberg",
 
-	"snippet": "Ett knapp-baserat pusselspel som innehåller 100 nivåer att låsa upp och 700 knappar att trycka på! Du är en av hackarklonerna som räddar intellektuella genom att hacka dig in i infekterade hjärnor och besegra de mystiska väktarna.",
+	"snippet": "Ett knapp-baserat pusselspel som innehåller 100 banor att låsa upp och 700 knappar att trycka på! Du är en av hackarklonerna som räddar intellektuella genom att hacka dig in i infekterade hjärnor och besegra de mystiska väktarna.",
 	"description1": "Ett robotiskt virus härjar! Nanorobotar, så kallade väktare, förslavar människor! Du är en av hackarklonerna som räddar intellektuella genom att hacka dig in i infekterade hjärnor. Fundera ut den rätta knappsekvensen och besegra de mystiska väktarna.",
 	"description2": "Det finns 100 stycken väktare för dig att besegra, innehållande en blandning av tajming, minne och mönsterigenkännande knappbaserade pussel.",
 
