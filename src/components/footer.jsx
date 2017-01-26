@@ -3,14 +3,20 @@ import Player from './player.jsx';
 import Facebook from './facebook.jsx'
 
 import lang from '../lib/lang.js'
+import {open} from '../lib/open.js'
+
 
 export default class extends React.Component {
+	onOpen(e){
+        e.preventDefault();
+        open(e);
+    	}
 	render() {
 		return (
 			<footer>
 
 				<Player/>
-				<a className="btn" href="http://store.steampowered.com/app/434310/">{lang.t('btn_play')}</a>
+				<a className="btn" onClick={this.onOpen} data-ios="https://itunes.apple.com/app/imprint-x/id1141358425" data-android="https://play.google.com/store/apps/details?id=nu.morgondag.imprintx" href="http://store.steampowered.com/app/434310/">{lang.t('btn_play')}</a>
 				<Facebook url="https://www.facebook.com/imprintX/" id="234294403315668"/>
 				<a  className="twitterLink" href="https://twitter.com/imprint_X" title="imprint-X on Twitter">@imprint_X</a>
 				<a href="http://morgondag.nu" title="Imprint-x developed by Morgondag">

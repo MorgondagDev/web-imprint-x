@@ -1,5 +1,6 @@
 import React, { Component, PropTypes } from 'react'
 import lang from '../lib/lang.js'
+import {open} from '../lib/open.js'
 
 export default class extends React.Component {
 	constructor(props) {
@@ -18,6 +19,11 @@ export default class extends React.Component {
 	capitalize(txt){
      	return txt.charAt(0).toUpperCase() + txt.slice(1);
 	}
+
+	onOpen(e){
+        e.preventDefault();
+        open(e);
+    	}
 
 	langPicker(){
 		return(
@@ -44,7 +50,7 @@ export default class extends React.Component {
 							</a>
 						</li>
 						<li>
-							<a className="btn-small" href="http://store.steampowered.com/app/434310/" title="Play Imprint-X on Steam or AppStore!">►!</a>
+							<a className="btn-small" onClick={this.onOpen} data-ios="http://google.se" data-android="http://google.se" href="http://store.steampowered.com/app/434310/" title="Play Imprint-X on Steam or AppStore!">►!</a>
 						</li>
 					</ul>
 				</nav>

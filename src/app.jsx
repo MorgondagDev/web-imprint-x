@@ -10,6 +10,8 @@ import Donate from './components/donate.jsx'
 
 import lang from './lib/lang.js'
 
+import {open} from './lib/open.js'
+
 const previewStyles = {
   top: '50%',
   left: '50%',
@@ -51,6 +53,11 @@ export default class extends React.Component {
 
     reRender(){
         this.setState({d: Date.now()})
+    }
+
+    onOpen(e){
+        e.preventDefault();
+        open(e);
     }
 
     preview(){
@@ -99,14 +106,22 @@ export default class extends React.Component {
                 <Hero/>
                 <section role="content">
                     <Capsules/>
+
+                    <iframe className="humblewidget" src="https://www.youtube.com/embed/otpCiFVTivU?autoplay=1" width="80%" height="327" scrolling="no" frameBorder="0" />
+
                     <h1>imprint-X</h1>
                     <h2>{lang.t('snippet')}</h2>
                     <p>{lang.t('description1')}</p>
                     <p><br/></p>
                     <p>{lang.t('description2')}</p>
-                    <iframe src="https://store.steampowered.com/widget/434310" frameBorder="0" width="80%" height="250" />
 
-                    <p><a className="btn" title="Play imprint-X now!" href="http://store.steampowered.com/app/434310/">{lang.t('btn_buy')}</a>
+                     <p><br/><br/></p>
+                    <iframe src="https://store.steampowered.com/widget/434310" frameBorder="0" width="80%" height="250" />
+                    <p><br/><br/></p>
+                    <iframe className="humblewidget" src="https://www.humblebundle.com/widget/v2/product/imprint-x/ADEuqCWGYx?theme=dark" width="80%" height="327" scrolling="no" frameBorder="0" />
+
+                    <p><a className="btn" title="Play imprint-X now!" onClick={this.onOpen} data-ios="http://google.se" data-android="http://google.se" href="https://store.steampowered.com/app/434310/">{lang.t('btn_buy')}</a>
+
                     <a className="btn" title="imprint-X Presskit" target="_blank" href="https://goo.gl/sgsKW9">{lang.t('presskit')}</a></p>
 
                     <ReactRpg imagesArray={this.getImages()} columns={[this.state.columns]} padding={this.state.padding} />
@@ -122,7 +137,7 @@ export default class extends React.Component {
                     </ul>
 
                     <p><br/><br/></p>
-                    <iframe src="http://store.steampowered.com/widget/434310" frameBorder="0" width="80%" height="250" />
+                    <iframe src="https://store.steampowered.com/widget/434310" frameBorder="0" width="80%" height="250" />
                 </section>
                 <Footer/>
             </section>
