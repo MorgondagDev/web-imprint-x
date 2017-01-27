@@ -15,6 +15,8 @@ import fi from '../lang/fi.js'
 import uk from '../lang/uk.js'
 import pl from '../lang/pl.js'
 import de from '../lang/de.js'
+import ro from '../lang/ro.js'
+import ko from '../lang/ko.js'
 
 let translations = {
     en: en.lang,
@@ -31,7 +33,9 @@ let translations = {
     fi: fi.lang,
     uk: uk.lang,
     pl: pl.lang,
-    de: de.lang
+    de: de.lang,
+    ro: ro.lang,
+    ko: ko.lang
 }
 
 const supportedLang = [
@@ -49,7 +53,9 @@ const supportedLang = [
     'fi',
     'uk',
     'pl',
-    'de'
+    'de',
+    'ro',
+    'ko'
 ]
 
 let currentLang = 'en'

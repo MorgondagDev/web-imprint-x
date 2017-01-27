@@ -18,16 +18,18 @@ exports.lang = {
 	"options_reset":	"Spiel zurücksetzen",
 	"options_language":	"Sprache",
 
-	"credit": 		"Neon Insect, Marcel C. A. Rauen; corrected by M. Freeway, Joni-bhoni",
+	"credit": 		"Neon Insect, Marcel C. A. Rauen; corrected by M. Freeway, Joni-bhoni, hydr0x",
 
-	"snippet": "Ein fesselndes Puzzlespiel zum Entspannen, mit 700 Schaltern und 100 freischaltbaren Leveln! Du bist einer der Hacker-Klone und rettest den Verstand der Menschheit. Besiege die mysteriösen Wächter, indem du dich in die infizierten Gehirne einklinkst.",
-	"description1": "Ein Naniten-Virus wütet! Winzige Maschinen unter dem Namen 'die Wächter' versklaven die Menschheit. Du bist einer der Hacker-Klone und rettest den Verstand unserer Spezies. Klinke dich in die infizierten Gehirne ein, finde die richtigen Sequenzen und besiege die mysteriösen Wächter.",
-	"description2": "100 verschiedene Wächter fordern deine Fähigkeiten heraus. Timing, Erinnerungsvermögen und Mustererkennung sind der Schlüssel, um ihre Schwachstelle zu finden.",
+	"snippet": "Ein knopfbasiertes Puzzlespiel mit 700 drückbaren Knöpfen und 100 freischaltbaren Leveln! Du bist einer der Hacker-Klone und rettest den Verstand der Menschheit, indem du dich in infizierte Gehirne hackst und die mysteriösen Wächter besiegst.",
+
+	"description1": "Ein roboterartiger Virus wütet! Nano-Roboter, genannt Wächter, versklaven die Menschheit. Du bist einer der Hacker-Klone und rettest den Verstand unserer Spezies, indem du dich in infizierten Gehirne hackst. Finde dort die richtigen Knopf-Sequenzen der mysteriösen Wächter um sie zu besiegen.",
+
+	"description2": "100 verschiedene Wächter fordern deine Fähigkeiten heraus. Löse ihre Puzzles durch eine Mischung aus Timing, Erinnerungsvermögen und Mustererkennung.",
 
 	"features": 		"Merkmale",
-	"feature1":		"700 Schaltflächen",
+	"feature1":		"700 drückbare Knöpfe",
 	"feature2":		"100 freischaltbare Level",
-	"feature3":		"Atmosphärische Musik und großartige Pixel-Art",
+	"feature3":		"Atmosphärische Musik und wunderschöne Pixel-Grafik",
 	"feature4":		"Eine Mischung aus verschiedenen Rätseln",
-	"feature5":		"Gameplay, welches zum Entdecken einlädt",
+	"feature5":		"Gameplay, das zum Entdecken einlädt",
 }

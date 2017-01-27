@@ -8,7 +8,7 @@ exports.lang = {
 	"btn_play":		"Jouer!",
 	"btn_subscribe": 	"S'abonner!",
 	"puzzle": 		"Puzzle / Enigmes!",
-	"btn": 			"Boutton!",
+	"btn": 			"Bouton!",
 	"presskit": 		"Presskit",
 
 	"options_fast":	"Mode Rapide",
@@ -18,16 +18,16 @@ exports.lang = {
 	"options_reset":	"Redémarrer",
 	"options_language":	"Langue",
 
-	"credit": 		"onsibuno (and review by BleuDiamant)",
+	"credit": 		"onsibuno (and review by BleuDiamant) re-review by Kimo",
 
-	"snippet": "Un jeu casse-tête captivant et ralaxant, avec 700 bouttons à appuyer et 100 niveau à débloquer ! Vous êtes l'un des clone hacker, qui sauvegardent les intellects en les téléchargeant dans des cerveaux infectés et en battant les mystérieux gardiens.",
-	"description1": "Un virus robotique se déchaîne ! Les Nanonot connu sous le nom de Gardiens réduisent en esclavage les populations ! Vous faites partis des clones hacker, votre mission est de sauvegarder les intellects en les téléchargeant dans des cerveaux infectés et en battant les mystérieux gardiens.",
-	"description2": "Il y a 100 gardiens à vaincre, des casse-tête qui mélange rythme, mémoire, et de reconnaissance de motifs à base de boutons.",
+	"snippet": "Un jeu de casse-tête captivant et relaxant, avec 700 boutons à presser et 100 niveau à débloquer ! Vous êtes un clones hacker, vous sauvez des intellects en hackant des cerveaux infectés et en combattant de mystérieux gardiens.",
+	"description1": "Un virus robotique se déchaîne ! Les Nanonots, connus sous le nom de 'Gardien', réduisent en esclavage les populations ! Vous faites partis des clones hacker, votre mission est de sauver des intellects en hackant des cerveaux infectés et en battant de mystérieux gardiens.",
+	"description2": "Il y a 100 gardiens à vaincre, des casse-tête qui mélange rythme, mémoire, et reconnaissance de motifs à base de boutons.",
 
-	"features": 		"Fonctionalités",
-	"feature1":		"700 boutons à appuyer",
-	"feature2":		"100 différents niveau",
-	"feature3":		"Musique d'ambiance et magnifique pixel art",
+	"features": 		"Fonctionnalités",
+	"feature1":		"700 boutons à presser",
+	"feature2":		"100 niveaux différents à débloquer",
+	"feature3":		"Musique d'ambiance et magnifique pixel-art",
 	"feature4":		"Un mélange de différents casse-tête",
 	"feature5":		"Gameplay axé sur la curiosité",
 }
