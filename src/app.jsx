@@ -98,6 +98,23 @@ export default class extends React.Component {
         return this.shuffle(items).slice(0,8)
     }
 
+    signupForm(){
+        return( <section className="signup">
+
+            <div className="center">
+             <h1>{'<3'}</h1>
+                  <form action="http://send.morgondag.nu/subscribe" method="POST" acceptCharset="utf-8">
+                    <input type="email" name="email" id="email" placeholder={lang.t('btn_subscribe').replace("!","")+".."} />
+                    <br />
+                    <input type="hidden" name="list" defaultValue="XgSgS5WieFsaj5aMSyZoKQ" />
+                    <input type="submit" name="submit" id="submit" className="btn" value={lang.t('btn_subscribe')} />
+                    <p> <br /></p>
+
+                  </form>
+            </div>
+        </section>)
+    }
+
     render() {
         return (
             <section role="main">
@@ -107,7 +124,9 @@ export default class extends React.Component {
                 <section role="content">
                     <Capsules/>
 
-                    <iframe className="humblewidget" src="https://www.youtube.com/embed/otpCiFVTivU?autoplay=1" width="80%" height="327" scrolling="no" frameBorder="0" />
+                    {this.signupForm()}
+
+                    <iframe className="humblewidget" src="https://www.youtube.com/embed/otpCiFVTivU" width="80%" height="327" scrolling="no" frameBorder="0" />
 
                     <h1>imprint-X</h1>
                     <h2>{lang.t('snippet')}</h2>
@@ -138,6 +157,7 @@ export default class extends React.Component {
 
                     <p><br/><br/></p>
                     <iframe src="https://store.steampowered.com/widget/434310" frameBorder="0" width="80%" height="250" />
+                     {this.signupForm()}
                 </section>
                 <Footer/>
             </section>
