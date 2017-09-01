@@ -123,9 +123,11 @@ export default class extends React.Component {
                 <section role="content">
                     <Capsules/>
 
-                    {this.signupForm()}
 
-                    <iframe className="humblewidget" src="https://www.youtube.com/embed/otpCiFVTivU" width="80%" height="327" scrolling="no" frameBorder="0" />
+
+                    <iframe className="humblewidget videoframe" src="https://www.youtube.com/embed/lHdyIMGVbsw" width="80%" height="327" scrolling="no" frameBorder="0" />
+                     <p><br/></p>
+                    {this.signupForm()}
 
                     <h1>imprint-X</h1>
                     <h2>{lang.t('snippet')}</h2>

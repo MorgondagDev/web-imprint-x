@@ -9,14 +9,14 @@ export default class extends React.Component {
 			<section role="capsules">
 				<ul>
 					<li>
-						<a target="_blank" href="https://www.youtube.com/watch?v=otpCiFVTivU" title="imprint-X - Release Trailer" className="video capsule2">►</a>
-						<a className="desc" target="_blank" href="https://www.youtube.com/watch?v=otpCiFVTivU">
+						<a target="_blank" href="https://www.youtube.com/watch?v=lHdyIMGVbsw" title="imprint-X - Release Trailer" className="video capsule2">►</a>
+						<a className="desc" target="_blank" href="https://www.youtube.com/watch?v=lHdyIMGVbsw">
 							<span></span>
 						</a>
 					</li>
 					<li>
-						<a target="_blank" href="https://www.youtube.com/watch?v=7vXSfgh6mpI" title="imprint-X - Teaser" className="video capsule1">►</a>
-						<a className="desc" target="_blank" href="https://www.youtube.com/watch?v=7vXSfgh6mpI">
+						<a target="_blank" href="https://www.youtube.com/watch?v=otpCiFVTivU" title="imprint-X - Teaser" className="video capsule1">►</a>
+						<a className="desc" target="_blank" href="https://www.youtube.com/watch?v=otpCiFVTivU">
 							<span></span>
 						</a>
 					</li>
