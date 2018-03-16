@@ -103,7 +103,8 @@ export default class extends React.Component {
             <div className="center">
              <h1>{'<3'}</h1>
                   <form action="http://send.morgondag.nu/subscribe" method="POST" acceptCharset="utf-8">
-                    <input type="email" name="email" id="email" placeholder={lang.t('btn_subscribe').replace("!","")+".."} />
+                    <input type="text" name="name" id="name" placeholder="You" required={true} />
+                    <input type="email" name="email" id="email" placeholder={lang.t('btn_subscribe').replace("!","")+".."}  required={true} />
                     <br />
                     <input type="hidden" name="list" defaultValue="XgSgS5WieFsaj5aMSyZoKQ" />
                     <input type="submit" name="submit" id="submit" className="btn" value={lang.t('btn_subscribe')} />
