@@ -35,9 +35,8 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
-dist/app.min.js
+/dist/app.min.js
 dist/style.min.css
-dist/media/
 *.sublime-project
 *.sublime-workspace
 

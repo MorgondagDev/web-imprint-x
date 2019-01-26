@@ -136,7 +136,6 @@ export default class extends React.Component {
                      <p><br/><br/></p>
                     <iframe src="https://store.steampowered.com/widget/434310" frameBorder="0" width="80%" height="250" />
                     <p><br/><br/></p>
-                    <iframe className="humblewidget" src="https://www.humblebundle.com/widget/v2/product/imprint-x/ADEuqCWGYx?theme=dark" width="80%" height="327" scrolling="no" frameBorder="0" />
 
                     <p><a className="btn" title="Play imprint-X now!" onClick={this.onOpen} data-ios="http://google.se" data-android="http://google.se" href="https://store.steampowered.com/app/434310/">{lang.t('btn_buy')}</a>
 
