@@ -100,17 +100,14 @@ export default class extends React.Component {
     signupForm(){
         return( <section className="signup">
 
+
+
+
             <div className="center">
              <h1>{'<3'}</h1>
-                  <form action="http://send.morgondag.nu/subscribe" method="POST" acceptCharset="utf-8">
-                    <input type="text" name="name" id="name" placeholder="You" required={true} />
-                    <input type="email" name="email" id="email" placeholder={lang.t('btn_subscribe').replace("!","")+".."}  required={true} />
-                    <br />
-                    <input type="hidden" name="list" defaultValue="XgSgS5WieFsaj5aMSyZoKQ" />
-                    <input type="submit" name="submit" id="submit" className="btn" value={lang.t('btn_subscribe')} />
-                    <p> <br /></p>
 
-                  </form>
+             <a href="https://morgondag.io" id="submit" className="btn">{lang.t('btn_subscribe')}</a>
+
             </div>
         </section>)
     }
@@ -129,7 +126,7 @@ export default class extends React.Component {
                     <iframe className="humblewidget videoframe" src="https://www.youtube.com/embed/lHdyIMGVbsw" width="80%" height="327" scrolling="no" frameBorder="0" />
                      <p><br/></p>
                     {this.signupForm()}
-
+                    <br/>
                     <h1>imprint-X</h1>
                     <h2>{lang.t('snippet')}</h2>
                     <p>{lang.t('description1')}</p>
